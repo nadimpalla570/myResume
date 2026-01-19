@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+</head>
+<body>
+
+    <h2>Login Form</h2>
+    <form action="/resume.html" method="post">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" required minlength="6"><br><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required maxlength="12"><br><br>
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age" required min="18" max="100"><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <p>Gender:</p>
+        <input type="radio" id="male" name="gender" value="male" required>  <label for="male">Male</label><br><br>
+
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female" required> <br><br>
+
+        <input type="submit" value="Login">
+
+        <lable type="color" for="favcolor">Choose your favorite color:</lable>
+        <input type="color" id="favcolor" name="favcolor" value="#000000"><br><br>
+
+
+        <lable for="feedback"> Leave you through about page here:</lable>
+        <textarea id="feedback" name="feedback" rows="4" cols="50" placeholder="Enter your feedback">
+        </textarea>
+
+
+    </form>
+</body>
+</html>
